@@ -14,6 +14,21 @@ A Laravel 12 microservice that aggregates real-time cryptocurrency prices from m
 - **Resilient HTTP** — all external API calls use retry logic (3 attempts, 5s delay)
 
 ---
+## Supported Exchanges
+
+| Exchange | Website |
+|----------|---------|
+| Arzplus | [arzplus.net](https://arzplus.net) |
+| Mellichange | [mellichange.com](https://mellichange.com) |
+| Iranicard | [iranicard.ir](https://iranicard.ir) |
+| Nobitex | [nobitex.ir](https://nobitex.ir) |
+| Exir | [exir.io](https://exir.io) |
+| Ompfinex | [ompfinex.com](https://ompfinex.com) |
+| Efex | [farhad-exchange.com](https://farhad-exchange.com) |
+| Pooleno | [pooleno.ir](https://pooleno.ir) |
+| Ramzinex | [ramzinex.com](https://ramzinex.com) |
+
+---
 
 ## Tech Stack
 
@@ -93,10 +108,10 @@ Returns all registered exchanges.
 **Response:**
 ```json
 {
-  "status": "success",
-  "data": [
-    { "id": 1, "name": "Arzplus"}
-  ]
+    "status": "success",
+    "data": [
+        { "id": 1, "name": "Arzplus"}
+    ]
 }
 ```
 
@@ -115,24 +130,24 @@ Returns price snapshots for the requested timeframe, joined with currency metada
 **Response:**
 ```json
 {
-  "success": true,
-  "message": "Daily prices fetched successfully.",
-  "data": [
-    {
-      "id": 1,
-      "exchange": "Arzplus",
-      "coin_name": "btc",
-      "high_price": 4250000000,
-      "low_price": 4200000000,
-      "last_update": "2025-01-01T12:00:00.000000Z",
-      "coin_info": {
-        "enName": "Bitcoin",
-        "faName": "بیت‌کوین",
-        "symbol": "BTC",
-        "logo": "https://..."
-      }
-    }
-  ]
+    "success": true,
+    "message": "Daily prices fetched successfully.",
+    "data": [
+        {
+            "id": 1,
+            "exchange": "Arzplus",
+            "coin_name": "btc",
+            "high_price": 4250000000,
+            "low_price": 4200000000,
+            "last_update": "2025-01-01T12:00:00.000000Z",
+            "coin_info": {
+                "enName": "Bitcoin",
+                "faName": "بیت‌کوین",
+                "symbol": "BTC",
+                "logo": "https://..."
+            }
+        }
+    ]
 }
 ```
 

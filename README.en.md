@@ -14,6 +14,21 @@ A Laravel 12 microservice that aggregates real-time cryptocurrency prices from m
 - **Resilient HTTP** — all external API calls use retry logic (3 attempts, 5s delay)
 
 ---
+## Supported Exchanges
+
+| Exchange | Website |
+|----------|---------|
+| Arzplus | [arzplus.net](https://arzplus.net) |
+| Mellichange | [mellichange.com](https://mellichange.com) |
+| Iranicard | [iranicard.ir](https://iranicard.ir) |
+| Nobitex | [nobitex.ir](https://nobitex.ir) |
+| Exir | [exir.io](https://exir.io) |
+| Ompfinex | [ompfinex.com](https://ompfinex.com) |
+| Efex | [farhad-exchange.com](https://farhad-exchange.com) |
+| Pooleno | [pooleno.ir](https://pooleno.ir) |
+| Ramzinex | [ramzinex.com](https://ramzinex.com) |
+
+---
 
 ## Tech Stack
 

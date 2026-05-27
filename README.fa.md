@@ -17,6 +17,22 @@
 
 ---
 
+## صرافی‌های پشتیبانی‌شده
+
+| صرافی | وب‌سایت |
+|-------|---------|
+| آرزپلاس | [arzplus.net](https://arzplus.net) |
+| ملی‌چنج | [mellichange.com](https://mellichange.com) |
+| ایرانی‌کارت | [iranicard.ir](https://iranicard.ir) |
+| نوبیتکس | [nobitex.ir](https://nobitex.ir) |
+| اکسیر | [exir.io](https://exir.io) |
+| امپ‌فینکس | [ompfinex.com](https://ompfinex.com) |
+| افکس | [farhad-exchange.com](https://farhad-exchange.com) |
+| پول‌انو | [pooleno.ir](https://pooleno.ir) |
+| رمزینکس | [ramzinex.com](https://ramzinex.com) |
+
+---
+
 ## پشته فناوری
 
 - **PHP 8.2+** / **Laravel 12**
